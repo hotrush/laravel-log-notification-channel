@@ -1,20 +1,20 @@
 {
-    "name": "laravel-notification-channels/:package_name",
-    "description": ":package_description",
-    "homepage": "https://github.com/laravel-notification-channels/:package_name",
+    "name": "hotrush/laravel-log-notification-channel",
+    "description": "Log notifications channel for laravel",
+    "homepage": "https://github.com/hotrush/laravel-log-notifications-channel",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "hotrush",
+            "email": "johny64@gmail.om",
+            "homepage": "https://github.com/hotrush",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=5.6.4",
-        "illuminate/notifications": "^5.3",
-        "illuminate/support": "^5.1|^5.2|^5.3"
+        "php": ">=5.5.9",
+        "illuminate/notifications": "^5.1",
+        "illuminate/support": "^5.1"
     },
     "require-dev": {
         "mockery/mockery": "^0.9.5",
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\": "src"
+            "NotificationChannels\\Log\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\Test\\": "tests"
+            "NotificationChannels\\Log\\Test\\": "tests"
         }
     },
     "scripts": {
