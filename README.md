@@ -35,6 +35,8 @@ use App\Post;
 use Illuminate\Notifications\Notification;
 use NotificationChannels\Log\LogChannel;
 use NotificationChannels\Twilio\TwilioChannel;
+use NotificationChannels\Log\LogMessage;
+
 
 class AuthCodeCreatedNotification extends Notification
 {
